@@ -1,0 +1,36 @@
+﻿<Window x:Class="Kryptofo_Tax_Import.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="700"
+        xmlns:my="clr-namespace:Gma.QrCodeNet.Encoding.Windows.WPF;assembly=Gma.QrCodeNet.Encoding"
+        mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:my1="clr-namespace:Gma.QrCodeNet.Encoding.Windows.WPF;assembly=Gma.QrCodeNet.Encoding" AllowsTransparency="False" FontFamily="Segoe UI" OpacityMask="Black"
+        MinWidth="600" MinHeight="600" Icon="logo.ico">
+    <Grid>
+        <Label Content="Select file to import" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox Height="23" Name="textBoxFileToImport" Margin="129,14,37,0" VerticalAlignment="Top" Text=""/>
+        <Button Content="..." Margin="0,14,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="22" Click="buttonElipsis_Click"/>
+        <Button Content="Generate QR code" HorizontalAlignment="Left" Margin="10,0,0,51" VerticalAlignment="Bottom" Width="150" Click="buttonGenerateQR_Click" Height="45"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="10,0,0,20" Width="150" Click="buttonCancel_Click" Height="26" VerticalAlignment="Bottom"/>
+        <my1:QrCodeImgControl HorizontalAlignment="Stretch" Margin="226,70,30,60" Name="qrCodeImgControl1" Text="" VerticalAlignment="Stretch" QuietZoneModule="Zero" IsGrayImage="True" LightColor="#FFFFCCFF" DarkColor="#FF910000" />
+        <ComboBox Name="coinType"  HorizontalAlignment="Left" Margin="76,74,0,0" VerticalAlignment="Top" Width="145" IsEditable="True" Text="BTC (Bitcoin)">
+            <ComboBoxItem Content="BTC (Bitcoin)"/>
+            <ComboBoxItem Content="LTC (Litecoin)"/>
+            <ComboBoxItem Content="Doge (Dogecoin)"/>
+            <ComboBoxItem Content="FTC (Feathercoin)"/>
+            <ComboBoxItem Content="NVC (Novacoin)"/>
+            <ComboBoxItem Content="NMC (Namecoin)"/>
+            <ComboBoxItem Content="QRK (Quark)"/>
+            <ComboBoxItem Content="PPC (Peercoin)"/>
+            <ComboBoxItem Content="XPM (Primecoin)"/>
+            <ComboBoxItem Content="ANC (Anoncoin)"/>
+            <ComboBoxItem Content="GLD (Goldcoin)"/>
+            <ComboBoxItem Content="IXC (Ixcoin)"/>
+        </ComboBox>
+        <Label Content="Coin type" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <Button Content="Prev" Name="buttonPrev" Margin="0,0,155,23" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom" IsEnabled="False" Click="buttonPrev_Click" />
+        <Button Content="Next" Name="buttonNext" Margin="0,0,30,23" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom"  IsEnabled="False" Click="buttonNext_Click" />
+        <Label Content="0 of 0" Name="labelBatch" Margin="0,0,110,20" HorizontalAlignment="Right" Width="40" Height="26" VerticalAlignment="Bottom"/>
+        <Label Content="Either select from the list or type in" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="the coin symbol followed by a space." HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

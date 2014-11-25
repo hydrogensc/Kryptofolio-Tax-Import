@@ -1,0 +1,10 @@
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\Gma.QrCodeNet.Encoding.csprojResolveAssemblyReference.cache
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\Gma.QrCodeNet.Encoding_MarkupCompile.cache
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\Gma.QrCodeNet.Encoding_MarkupCompile.lref
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\themes\Generic.baml
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\Gma.QrCodeNet.Encoding.g.resources
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Development\MobileDevelopment\projects\bitcoin_accounts\Kryptofo-Tax-Import\Gma.QrCodeNet.Encoder\obj\Debug\Gma.QrCodeNet.Encoding.pdb
